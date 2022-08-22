@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Encriptador de texto Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+       
+        <header>
+            <img src="imagenes/Logo.png" alt="logo Alura">
+        </header>
+        
+        <main>
+           
+            <section class="section1">
+                <div>
+                    <textarea class="texto" placeholder="Ingrese el texto aquí!"></textarea>
+                    <p class="alerta">&#33;Solo letras minúsculas y sin acentos</p>
+                    
+                    <div class="botones">
+                        <input type="submit" value="Encriptar" class="btn-encriptar" >
+                        <input type="submit" value="Desencriptar" class="btn-desencriptar">
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section2">
+                <div class="contenedor-section2">
+                    <div  class="contenedor-imagen">
+                        <img src="imagenes/Mu%C3%B1eco.png" alt="munheco Alura">
+                    </div>
+                    <div class="contenedor-h2">
+                        <h2>Ningún mensaje fue encontrado</h2>
+                    </div>
+                    <div class="contenedor-p">
+                        <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                    </div>
+                </div>
+                <div class="resultado">
+                   <h2>Mensaje encriptado:</h2>
+                   <textarea class="texto-resultado" id="textarea"></textarea>
+                   <div class="btn-copiar" onclick="copiar()">
+                       <input type="submit" value="Copiar" id="btncopy">
+                   </div>
+                </div>
+            </section>
+            
+        </main>
+        
+        <script src="script.js"></script>
+    </body>
+    
+</html>
