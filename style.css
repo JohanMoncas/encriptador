@@ -157,3 +157,59 @@ section{
 .ocultar{
     display: none;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 480px){
+    section{
+        width: 40%; 
+        height: 60%;
+    }
+
+    .section1{
+        width: 75%;
+    }
+
+    .texto{
+        height: 7em;
+    }
+
+    .alerta{
+        font-size: 15px;
+        margin-left: 16%;
+        padding-bottom: 3%;
+    }
+
+    .botones{
+        margin-left: 14%;
+    }
+
+    .btn-encriptar{
+        margin-bottom: 3%;
+    }
+
+    .section2{
+        width: 80%;
+        height: 10%;
+        margin-left: 10%;
+        margin-top: 120%;
+        margin-right: 10%;
+        position: absolute;
+    }
+
+    .contenedor-imagen{
+        display: none;
+    }
+
+    .contenedor-p{
+        padding-bottom: 30px;
+    }
+
+    .resultado{
+        height: 30%;
+    }
+
+    .texto-resultado{
+        height: 7em;
+    }
+}
